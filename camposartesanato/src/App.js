@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header/index";
-import Sobre from "./pages/Sobre/Sobre"
+import Inicial from "./pages/Inicial/Inicial"
 /* import logo from './logo.svg';
 import './App.css'; */
 
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Header/>
-      <Sobre/>
+      <Inicial/>
     
     </>
   );
