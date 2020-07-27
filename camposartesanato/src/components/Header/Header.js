@@ -1,10 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+//import { mediaQ } from '../../ui/MediaQuery';
 
 const HeaderStyle = styled.header`
   background: #FF9899;
   width: 100vw;
   height: 8vh;
+
+ 
+  
 `;
 
 const Title = styled.title`
@@ -12,7 +16,7 @@ const Title = styled.title`
   height: 8vh;
   font-size: 20px;
   font-weight: bold;
-  color: whitesmoke;
+  color: #653332;
   display: flex;
   justify-content: flex-end;
   align-items: center;

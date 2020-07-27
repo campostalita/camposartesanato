@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./components/Header/index";
-import Inicial from "./pages/Inicial/Inicial"
+import Header from "./components/Header/Header";
+import Initial from "./pages/Initial/Initial"
 /* import logo from './logo.svg';
 import './App.css'; */
 
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Header/>
-      <Inicial/>
+      <Initial/>
     
     </>
   );
