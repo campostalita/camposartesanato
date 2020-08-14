@@ -1,27 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-//import { mediaQ } from '../../ui/MediaQuery';
-
-const HeaderStyle = styled.header`
-  background: #FF9899;
-  width: 100vw;
-  height: 8vh;
-
- 
-  
-`;
-
-const Title = styled.title`
-  width: 100vw;
-  height: 8vh;
-  font-size: 20px;
-  font-weight: bold;
-  color: #653332;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0px 20px 0px 5px;
-`;
+import { HeaderStyle, Title } from "./style"
 
 const Header = () => {
   return (
@@ -32,3 +10,11 @@ const Header = () => {
 };
 
 export default Header;
+
+// Essa parte é pra qdo for arrumar os links, colocar esse efeito neles
+//  transition: opacity .3s;
+
+//  &:hover,
+//  &: focus {
+//    opacity: .5
+//  }

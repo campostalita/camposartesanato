@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -21,12 +27,15 @@ code {
   box-sizing:border-box
   }
 
+a {
+   color: inherit;
+  }
 
-/* Cores
-
-fundo #FDC3C2
-campos #FF9899
-marrom #653332 */
+:root{
+  --fundo: #FDC3C2;
+  --campos:#FF9899;
+  --marrom: #653332;
+}
 
   
 /* html, body, div, span, applet, object, iframe,
